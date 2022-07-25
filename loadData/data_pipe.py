@@ -18,8 +18,7 @@ def set_deterministic(seed):
         torch.backends.cudnn.benchmark = False 
 
 def get_data(model_name="FDGC", 
-    path_config=None, 
-    print_config=False, print_data_info=False):
+    path_config=None, print_config=False, print_data_info=False):
     
     config = yaml.load(open(path_config, "r"), Loader=yaml.FullLoader)
     # config

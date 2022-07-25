@@ -3,6 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
+
+# source from https://github.com/Yejin0111/ADD-GCN
 class DynamicGraphConvolution(nn.Module):
     def __init__(self, in_features, out_features, num_nodes=20):
         super(DynamicGraphConvolution, self).__init__()
@@ -107,6 +109,7 @@ class DropBlock2D(nn.Module):
     def _compute_gamma(self, x):
         return self.drop_prob / (self.block_size ** 2)
 
+
 class LinearScheduler(nn.Module):
     def __init__(self, dropblock, start_value, stop_value, nr_steps):
         super(LinearScheduler, self).__init__()
@@ -123,6 +126,7 @@ class LinearScheduler(nn.Module):
             self.dropblock.drop_prob = self.drop_values[self.i]
 
         self.i += 1
+
 
 class FDGC(nn.Module):
     def __init__(self, input_channels, num_nodes, num_classes, patch_size, drop_prob=0.1, block_size=3):

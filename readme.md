@@ -17,10 +17,7 @@ This project is implemented with Pytorch and has been tested on version Pytorch 
 
 
 ## Citation
-Please kindly cite the papers if this code is useful and helpful for your research.
-
-Q. Liu, Y. Dong, Y. Zhang and H. Luo, "A Fast Dynamic Graph Convolutional Network and CNN Parallel Network for Hyperspectral Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-15, 2022, Art no. 5530215, doi: 10.1109/TGRS.2022.3179419.
-
+Please kindly cite the papers [A Fast Dynamic Graph Convolutional Network and CNN Parallel Network for Hyperspectral Image Classification](https://ieeexplore.ieee.org/abstract/document/9785802) if this code is useful and helpful for your research.
 
 ```
 @ARTICLE{9785802,  author={Liu, Quanwei and Dong, Yanni and Zhang, Yuxiang and Luo, Hui},  journal={IEEE Transactions on Geoscience and Remote Sensing},   title={A Fast Dynamic Graph Convolutional Network and CNN Parallel Network for Hyperspectral Image Classification},   year={2022},  volume={60},  number={},  pages={1-15},  doi={10.1109/TGRS.2022.3179419}}
