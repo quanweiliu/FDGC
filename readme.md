@@ -13,7 +13,11 @@ then:
 > python main.py 
 
 ## Installation
-This project is implemented with Pytorch and has been tested on version Pytorch 1.7, numpy                 1.21.4, matplotlib            3.3.3 and scikit-learn          0.23.2.
+This project is implemented with Pytorch and has been tested on version 
+- Pytorch               1.7, 
+- numpy                 1.21.4
+- matplotlib            3.3.3 
+- scikit-learn          0.23.2
 
 
 ## Citation
